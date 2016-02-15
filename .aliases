@@ -1,0 +1,44 @@
+#!/bin/bash
+
+### Aliases
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+
+alias locjs="find . -name '*.js' | xargs wc -l"
+alias locphp="find . -name '*.php' | xargs wc -l"
+
+alias fixtime="sudo ntpdate ntp.ubuntu.com"
+
+# servers
+alias voyager="ssh bojan@voyager"
+
+alias s="sudo"
+
+# apt-get
+alias agi="s apt-get install"
+alias agr="s apt-get remove"
+alias agud="s apt-get update"
+alias agug="s apt-get upgrade"
+alias up="agud && agug"
+
+# tail
+alias tf="tail -f"
+alias vpnlog="tail -f /var/log/syslog | grep vpn"
+
+#git
+alias gst="git status"
+alias gdf="git diff"
+alias gds="git diff --staged"
+alias gcm="git commit"
+alias shazam="git stash && git pull && git stash pop"
+alias pick="git cherry-pick"
+alias pull="git pull origin"
+
+#UI
+alias o='xdg-open'
