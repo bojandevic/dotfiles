@@ -2,7 +2,7 @@
      "curly": false,
      "eqeqeq": false,
      "undef": false,
-     "esversion": 5,
+     "esversion": 3,
      "freeze": true
 }
 
