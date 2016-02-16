@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Coping dot files"
 
-SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions")
+SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions", ".jshintrc")
 for SCRIPT in ${SCRIPTS[@]} 
 do
     # Make a backup if needed
