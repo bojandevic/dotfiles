@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"GotoRowCol",
+		"Material Theme",
+		"Materialize",
+		"Modific",
+		"Package Control",
+		"Reform",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Text Pastry",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"WakaTime"
+	]
+}
