@@ -8,7 +8,6 @@
 		"docroot/themes/",
 		"protected/runtime/"
 	],
-	"font_face": "Hack",
 	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
