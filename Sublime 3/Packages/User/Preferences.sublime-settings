@@ -1,5 +1,7 @@
 {
-
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -14,16 +16,14 @@
 	[
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"overlay_scroll_bars": "enabled",
 	"tab_size": 3,
-
-
-   "theme": "Material-Theme-Darker.sublime-theme",
-   "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-   "overlay_scroll_bars": "enabled",
-   "always_show_minimap_viewport": true,
-   "bold_folder_labels": true,
-   "indent_guide_options": [ "draw_normal", "draw_active" ],   // Highlight active indent
-
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
