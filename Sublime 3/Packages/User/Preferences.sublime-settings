@@ -6,7 +6,6 @@
 	[
 		".svn",
 		".git",
-		"extensions",
 		"docroot/themes/",
 		"protected/runtime/"
 	],
