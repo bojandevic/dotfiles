@@ -18,7 +18,7 @@ done
 
 if [[ ! -d ~/.config/sublime-text-3 ]]; then
    echo "Making ~/.config/sublime-text-3 folder"
-   mkdir ~/.config/sublime-text-3/
+   mkdir -p ~/.config/sublime-text-3/
 fi
 echo "Coping Sublime 3 files"
 cp -r Sublime\ 3/* ~/.config/sublime-text-3/
