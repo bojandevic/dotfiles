@@ -22,3 +22,6 @@ if [[ ! -d ~/.config/sublime-text-3 ]]; then
 fi
 echo "Coping Sublime 3 files"
 cp -r Sublime\ 3/* ~/.config/sublime-text-3/
+
+echo "Appling new .bashrc"
+source ~/.bashrc
