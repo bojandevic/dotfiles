@@ -29,7 +29,8 @@ alias up="agud && agug"
 
 # tail
 alias tf="tail -f"
-alias vpnlog="tail -f /var/log/syslog | grep vpn"
+alias vpnlog="tail -f -n 1000 /var/log/syslog | grep vpn"
+alias cronlog="tail -f -n 1000 /var/log/syslog | grep CRON"
 
 #git
 alias gst="git status"
