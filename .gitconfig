@@ -1,0 +1,26 @@
+[user]
+	name = Bojan Devic
+	email = bojan@bojandevic.com
+	username = bojandevic
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	quotepath = false
+[push]
+	default = matching
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/gnome-keyring/git-credential-gnome-keyring
+[alias]
+	co = checkout
+	ecg = config --global -e
+	ec = config -e
+	merged = branch --merged ${1-master}
+	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+	cob = checkout -b
+	cm = !git add . && git commit -m
+	undo = reset HEAD~1 --mixed
+	amend = commit -a --amend
+	bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs -r git branch -d; }; f"
+	bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"

@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Coping dot files"
 
-SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc")
+SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc", ".gitconfig")
 for SCRIPT in ${SCRIPTS[@]} 
 do
     cp ~/$SCRIPT $SCRIPT

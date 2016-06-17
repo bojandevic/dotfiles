@@ -6,7 +6,7 @@ if [[ !  -d ~/.logs ]]; then
    mkdir ~/.logs
 fi
 
-SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc")
+SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc", ".gitconfig")
 for SCRIPT in ${SCRIPTS[@]} 
 do
     # Make a backup if needed
