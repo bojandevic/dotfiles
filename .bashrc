@@ -110,6 +110,10 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
+if [ -f ~/.aliases_other ]; then
+    . ~/.aliases_other
+fi
+
 if [ -f ~/.functions ]; then
     . ~/.functions
 fi
