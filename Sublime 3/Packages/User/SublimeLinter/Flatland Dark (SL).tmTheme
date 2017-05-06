@@ -60,19 +60,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python Docstring</string>
-			<key>scope</key>
-			<string>string.quoted.double.block.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#798188</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
 			<string>constant</string>
@@ -916,16 +903,6 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -933,6 +910,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
