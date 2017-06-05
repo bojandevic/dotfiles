@@ -20,12 +20,12 @@ alias voyager="ssh bojan@voyager"
 
 alias s="sudo"
 
-# apt-get
-alias agi="s apt-get install"
-alias agr="s apt-get remove"
-alias agud="s apt-get update"
-alias agug="s apt-get upgrade"
-alias up="agud && agug"
+# apt
+alias apti="s apt install"
+alias aptr="s apt remove"
+alias aptup="s apt update"
+alias aptug="s apt upgrade"
+alias up="aptup && aptug"
 
 # tail
 alias tf="tail -f"
