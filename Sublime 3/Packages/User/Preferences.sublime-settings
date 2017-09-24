@@ -9,8 +9,7 @@
 		"docroot/themes/",
 		"protected/runtime/"
 	],
-	"font_size": 11,
-	"font_face": "hack",
+	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -23,7 +22,7 @@
 	],
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 3,
-	"theme": "Arc-Dark-Master.sublime-theme",
-	"trim_trailing_white_space_on_save": false,
+	"theme": "Adaptive.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
