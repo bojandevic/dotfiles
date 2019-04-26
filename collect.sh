@@ -15,13 +15,12 @@ if [ -d "$SUBLIMEDIR" ]; then
 fi
 
 VSCODEDIR=~/.config/Code/User
-if [ ! -d "$VSCODEDIR" ]; then
-echo "change"
+if [[ ! -d "$VSCODEDIR" ]]; then
     VSCODEDIR=~/.config/Code\ -\ OSS/User
 fi
 
-if [ -d "$VSCODEDIR" ]; then
+if [[ -d "$VSCODEDIR" ]]; then
     echo "Coping VS Code files"
     mkdir -p vscode
-    cp -r "$VSCODEDIR/settings.json" vscode
+    cp -r vscode/settings.json "$VSCODEDIR"
 fi

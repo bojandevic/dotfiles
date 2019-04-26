@@ -6,22 +6,33 @@ if [[ !  -d ~/.logs ]]; then
    mkdir ~/.logs
 fi
 
-SCRIPTS=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc" ".gitconfig")
-for SCRIPT in ${SCRIPTS[@]} 
+FILES=(".bashrc" ".aliases" ".vimrc" ".functions" ".jshintrc" ".gitconfig")
+for FILE in ${FILES[@]}
 do
     # Make a backup if needed
-    if [[ -f ~/$SCRIPT ]]; then
-       cp ~/$SCRIPT ~/$SCRIPT.`date +%s`
+    if [[ -f ~/$FILE ]]; then
+       cp ~/$FILE ~/$FILE.`date +%s`
     fi
-    cp $SCRIPT ~/$SCRIPT
+    cp $FILE ~/$FILE
 done
 
-if [[ ! -d ~/.config/sublime-text-3 ]]; then
-   echo "Making ~/.config/sublime-text-3 folder"
-   mkdir -p ~/.config/sublime-text-3/
+SUBLIMEDIR=~/.config/sublime-text-3
+if [[ -d "$SUBLIMEDIR" ]]; then
+    echo "Coping Sublime 3 files"
+    cp -r Sublime\ 3/* "$SUBLIMEDIR"
 fi
-echo "Coping Sublime 3 files"
-cp -r Sublime\ 3/* ~/.config/sublime-text-3/
+
+
+VSCODEDIR=~/.config/Code/User
+if [[ ! -d "$VSCODEDIR" ]]; then
+    VSCODEDIR=~/.config/Code\ -\ OSS/User
+fi
+
+if [[ -d "$VSCODEDIR" ]]; then
+    echo "Coping VS Code files"
+    cp -r "$VSCODEDIR/settings.json" vscode
+fi
+
 
 echo "Appling new .bashrc"
 source ~/.bashrc
