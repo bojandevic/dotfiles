@@ -30,7 +30,7 @@ fi
 
 if [[ -d "$VSCODEDIR" ]]; then
     echo "Coping VS Code files"
-    cp -r "$VSCODEDIR/settings.json" vscode
+    cp -r "vscode/settings.json" "$VSCODEDIR"
 fi
 
 
