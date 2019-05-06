@@ -96,16 +96,6 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
@@ -130,4 +120,12 @@ if ! shopt -oq posix; then
 fi
 
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
+export PATH="$HOME/bin/Sencha/Cmd:$PATH"
+export PATH="$HOME/Apps/flutter/bin:$PATH"
+export PATH="$HOME/Android/Sdk/platform-tools:$PATH"
+export PATH="$HOME/Android/Sdk/tools:$PATH"
+export PATH="$HOME/Scripts:$PATH"
+export PATH="$HOME/bin/android-studio/gradle/gradle-4.4/bin:$PATH"
+export PATH=~/.npm-global/bin:$PATH
+
 export PATH="/home/bojan/bin/Sencha/Cmd:$PATH"

@@ -2,10 +2,12 @@
     "editor.tabSize": 3,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.insertSpaces": false,
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     "files.trimTrailingWhitespace": true,
     "editor.wordWrap": "off",
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Material Theme",
+    "editor.fontFamily": "Hack"
 }

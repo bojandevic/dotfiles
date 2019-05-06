@@ -15,9 +15,6 @@ alias locphp="find . -name '*.php' | xargs wc -l"
 
 alias fixtime="sudo ntpdate ntp.ubuntu.com"
 
-# servers
-alias voyager="ssh bojan@voyager"
-
 alias s="sudo"
 
 # apt
