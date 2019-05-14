@@ -155,7 +155,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source "/usr/share/git/completion/git-completion.bash" 
+if [ -f /usr/share/git/completion/git-completion.bash ]; then
+  source "/usr/share/git/completion/git-completion.bash" 
+fi
 
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
 export PATH="$HOME/bin/Sencha/Cmd:$PATH"
