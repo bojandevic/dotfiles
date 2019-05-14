@@ -5,9 +5,11 @@
     "editor.fontSize": 11,
     "files.trimTrailingWhitespace": true,
     "editor.wordWrap": "off",
-    "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Material Theme",
-    "editor.fontFamily": "Hack"
+    "editor.fontFamily": "Hack",
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false
 }
