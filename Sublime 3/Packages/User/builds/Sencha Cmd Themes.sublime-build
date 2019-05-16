@@ -1,4 +1,0 @@
-{
-	"shell_cmd": "cd packages/fa && sencha package build && cd ../darkblue && sencha package build && cd ../dark && sencha package build",
-	"working_dir": "${project_path:${folder}}"
-}

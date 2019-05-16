@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Ext.Object.each(${1:obj}, function(${2:key}, ${3:value}) {
-	${4:}
-});
-]]></content>
-	<tabTrigger>oeach</tabTrigger>
-	<scope>source.js</scope>
-</snippet>

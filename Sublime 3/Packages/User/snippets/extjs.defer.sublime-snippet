@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Ext.defer(function() {
-	${1}
-}, ${2:40});
-]]></content>
-	<tabTrigger>defer</tabTrigger>
-	<scope>source.js</scope>
-</snippet>

@@ -1,4 +1,0 @@
-{
-	"shell_cmd": "sencha app build production",
-	"working_dir": "${project_path:${folder}}/docroot"
-}

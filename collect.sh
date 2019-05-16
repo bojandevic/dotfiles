@@ -7,12 +7,12 @@ do
     cp ~/$FILE $FILE
 done
 
-SUBLIMEDIR=~/.config/sublime-text-3
-if [ -d "$SUBLIMEDIR" ]; then
-    echo "Coping Sublime 3 files"
-    cp -r $SUBLIMEDIR/Installed\ Packages Sublime\ 3/
-    cp -r $SUBLIMEDIR/Packages Sublime\ 3/
-fi
+# SUBLIMEDIR=~/.config/sublime-text-3
+# if [ -d "$SUBLIMEDIR" ]; then
+#     echo "Coping Sublime 3 files"
+#     cp -r $SUBLIMEDIR/Installed\ Packages Sublime\ 3/
+#     cp -r $SUBLIMEDIR/Packages Sublime\ 3/
+# fi
 
 VSCODEDIR=~/.config/Code/User
 if [[ ! -d "$VSCODEDIR" ]]; then
@@ -23,4 +23,5 @@ if [[ -d "$VSCODEDIR" ]]; then
     echo "Coping VS Code files"
     mkdir -p vscode
     cp -r "$VSCODEDIR/settings.json" vscode/
+    cp -r "$VSCODEDIR/keybindings.json" vscode/
 fi

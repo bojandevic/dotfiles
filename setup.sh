@@ -16,11 +16,11 @@ do
     cp $FILE ~/$FILE
 done
 
-SUBLIMEDIR=~/.config/sublime-text-3
-if [[ -d "$SUBLIMEDIR" ]]; then
-    echo "Coping Sublime 3 files"
-    cp -r Sublime\ 3/* "$SUBLIMEDIR"
-fi
+# SUBLIMEDIR=~/.config/sublime-text-3
+# if [[ -d "$SUBLIMEDIR" ]]; then
+#     echo "Coping Sublime 3 files"
+#     cp -r Sublime\ 3/* "$SUBLIMEDIR"
+# fi
 
 
 VSCODEDIR=~/.config/Code/User
@@ -31,6 +31,7 @@ fi
 if [[ -d "$VSCODEDIR" ]]; then
     echo "Coping VS Code files"
     cp -r "vscode/settings.json" "$VSCODEDIR"
+    cp -r "vscode/keybindings.json" "$VSCODEDIR"
 fi
 
 

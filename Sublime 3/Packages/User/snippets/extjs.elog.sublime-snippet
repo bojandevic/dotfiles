@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[Ext.log.${1:info}(${2:arguments});]]></content>
-    <description>Ext.log.info arguments</description>
-    <scope>source.js</scope>
-    <tabTrigger>elog</tabTrigger>
-</snippet>

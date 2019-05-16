@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Ext.apply(${1:object}, {
-	${2:}
-});
-]]></content>
-	<tabTrigger>eapply</tabTrigger>
-	<scope>source.js</scope>
-</snippet>
