@@ -1,16 +1,18 @@
 {
-    "editor.tabSize": 3,
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.insertSpaces": false,
-    "editor.fontSize": 11,
-    "files.trimTrailingWhitespace": true,
-    "editor.wordWrap": "off",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "workbench.colorTheme": "Material Theme",
+    "editor.autoIndent": false,
     "editor.fontFamily": "Hack",
+    "editor.fontSize": 11,
+    "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "editor.formatOnPaste": false,
-    "editor.autoIndent": false
+    "editor.insertSpaces": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 3,
+    "editor.wordWrap": "off",
+    "files.trimTrailingWhitespace": true,
+    "python.pythonPath": "/home/bojan/anaconda3",
+    "workbench.colorTheme": "Material Theme",
+    "editor.renderWhitespace": "all"
 }
